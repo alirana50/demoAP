@@ -67,49 +67,5 @@
           ]
         }
       ]
-    },
-    "creatingorder": {
-      "statusCode": 200,
-      "statusMessage": "Order Created ",
-      "errorMessage": "NULL",
-      "data": [
-        {
-        "order_id": 12335,
-        "order_details": "1 Big Mac, 1 Large fries, 1 Litre drink",
-        "cart_id": 1245,
-        "order_status": "Pending",
-        "rest_id": 1245,
-        "payment_status": "verified",
-        "order_completion_time": "30mins",
-        "user_id": 2435,
-        "vechile_id": 1354,
-        "carts": [
-          {
-            "cart_Id": 23432,
-            "order_Id": 12434,
-            "cart_status": "Created",
-            "payment_status": "verified",
-            "price": "SR 120",
-            "total_Price": "SR 400",
-            "userId": 12324,
-            "rest_Id": 12323,
-            "cart_Items": [
-              {
-                "cart_Item_Id": 12323,
-                "cart_Id": 1232,
-                "food_Item_id": 23232,
-                "price": "SR 120",
-                "quantity": "1",
-                "total_Prce": "SR 400",
-                "deal_Id": 23,
-                "v_Id": 23,
-                "v_op_Id": 2323,
-                "created_At": "124363"
-              }
-            ]
-          }
-        ]
-        }
-      ]
     }
 }
