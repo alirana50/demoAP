@@ -1,71 +1,78 @@
 {
-  "Signup": {
-    "statusCode": 201,
-    "statusMessage": "User Created SuccessFully",
-    "errorMessage": "null",
-    "data": null
+  "_id": {
+    "$oid": "66012a959cdd3ede0865b31b"
   },
-    "login": {
-      "statusCode": 200,
-      "statusMessage": "Guest User Login SuccessFull",
-      "errorMessage": "No Error",
-      "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJSb2xlaWQiOiIxIiwiRGV2aWNlSWQiOiIxMjM0NSIsInVzZXJpZCI6IjEwMDIiLCJleHAiOjE3MDU4MDczNzAsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjgwODIvIiwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6ODA4Mi8ifQ.NlUAlJSyQQEs_XNehc55QhqgVAM6Z108b4AuWn3INRo"
-    },
-    "Vehicles": {
-        "statusCode": 200,
-        "statusMessage": "Vechile successFully Created",
-        "errorMessage": "",
-        "data":[
+  "companyName": "string",
+  "businessName": "string",
+  "companyAddress": "string",
+  "businessRegId": "string",
+  "ownerId": "65fc4f84298434dc62d57a8d",
+  "companyLogo": "string",
+  "companySlogan": "string",
+  "country": [
+    {
+      "CountryId": 0,
+      "CountryName": "string",
+      "onlineGateway": [
         {
-         "vechid": 0,
-        "vechileName": "Corolla",
-        "color": "White",
-        "vechileRegistrationNumber": "1234",
-        "vechileCompany": "Toyota",
-        "userid": 2
+          "onlineGatewayId": "1234",
+          "Icon": "1ndjkcsnxks",
+          "onlineGatewayName": "easypaisa",
+          "currencySign": "Rupee",
+          "currencyShortName": "Rs"
         }
-      ]
-    },
-    "creatingcart": {
-      "statusCode": 200,
-      "statusMessage": "CART CREATED SUCCESSFULLY, Rest_id: 1234",
-      "errorMessage": "NULL",
-      "data": "1234"
-    },
-    "cartitems":{
-      "statusCode": 200,
-      "statusMessage": "CART ITEM SUCCESSFULLY SAVED",
-      "errorMessage": "NULL",
-      "data": [
+      ],
+      "countryCash": [
         {
-            "food_Item_id": 8906,
-            "rest_Cat_id": 3066,
-            "name": "Pizza",
-            "description": "Heavy crust dough with cheese and chicken",
-            "unit": "1",
-            "unit_perPrice": "550",
-            "prepare_time": "15 MIns",
-            "variations": [
-              {
-                "v_Id": 9867,
-                "food_item_id": 8906,
-                "name": "Size",
-                "type": 1,
-                "price_Dependent": "true",
-                "varation_Options": [
-                  {
-                    "v_op_Id": 5423,
-                    "v_Id": 9867,
-                    "name": "Small",
-                    "price_Dependent": "true",
-                    "price": "500",
-                    "add_Price": "0",
-                    "annotation": "S"
-                  }
-              ]
-            }
-          ]
+          "ONE_SAR": 1,
+          "FIVE_SAR": 5,
+          "TEN_SAR": 10,
+          "TWENTY_SAR": 20,
+          "FIFTY_SAR": 50,
+          "HUNDRED_SAR": 100,
+          "TWO_HUNDRED_SAR": 200,
+          "FIVE_HUNDRED_SAR": 500
         }
-      ]
+      ],
+      "currency": "string"
     }
+  ],
+  "storesLocation": [
+    {
+      "storeName": "string",
+      "storeAddress": "string",
+      "latitude": "string",
+      "longitude": "string",
+      "storeId": 0,
+      "assignedEmployees": [
+        {
+          "name": "string",
+          "userId": 0,
+          "password": 0,
+          "companyId": 0
+        }
+      ],
+      "shifts": [
+        {
+          "shiftFrom": "Date",
+          "shiftTo": "Date",
+          "totalHours": 0
+        }
+      ],
+      "cashCounters": [
+        {
+          "storeId": 0,
+          "name": "string"
+        }
+      ],
+      "zipcode": 0
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-03-25T07:41:09.141Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-25T07:41:09.141Z"
+  },
+  "__v": 0
 }
